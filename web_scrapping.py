@@ -21,4 +21,3 @@ def recherche(name_crypto):
     return(None)
 
 
-recherche('amp')
