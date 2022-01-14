@@ -1,4 +1,5 @@
 from turtle import st
+from update_db import update_db
 import web_scrapping
 
 def start(value):
@@ -14,6 +15,11 @@ def start(value):
             if nom==name:
                 link = Dico_Link[nom]
         print(f"Le cours actuel de {name.upper()} est : {web_scrapping.recherche(link)}")
+        update_db(nom)
+
+
+
+        
 
 
 
