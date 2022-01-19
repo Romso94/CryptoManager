@@ -1,1 +1,3 @@
-# CryptoValue_euro
+# CryptoManager
+
+# In progress
